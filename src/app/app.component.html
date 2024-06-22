@@ -1,0 +1,14 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div [ngClass]="{'dark-mode': darkMode}">
+  <button mat-button (click)="enableDarkMode()" class="dark-mode-toggle" [class.dark-mode]="darkMode">
+    <mat-icon>{{ darkMode ? 'brightness_2' : 'wb_sunny' }}</mat-icon>
+    <span [style.color]="darkMode ? 'white' : '#333'">{{ darkMode ? 'Disable Dark Mode' : 'Enable Dark Mode' }}</span>
+  </button>
+    <app-header  [personal]="personalData" [social] = "socials" [darkMode]="darkMode"></app-header> 
+  <app-about [personal]="personalData" [darkMode]="darkMode"></app-about>
+  <app-experience [darkMode]="darkMode"></app-experience>
+  <app-projects [projects] = "project" [darkMode]="darkMode"></app-projects>
+  <app-contact [social] = "socials" [darkMode]="darkMode"></app-contact>
+  <app-footer [personal]="personalData" [darkMode]="darkMode"></app-footer>
+</div>
