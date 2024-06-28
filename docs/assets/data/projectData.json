@@ -4,7 +4,7 @@
     "id": 1,
     "title": "Kyanite Bank",
     "subtitle": "Technologies used: JavaFX, Maven, JUnit, and File I/O",
-    "image": "./images/kyanite-bank.png",
+    "image": "./assets/images/kyanite-bank.png",
     "link": "https://github.com/ksmasoun/Kyanite-Bank",
     "description": "Kyanite Bank is a comprehensive application developed to provide a secure and efficient solution for managing bank accounts and transactions."
   },
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Book Discussion Forum",
     "subtitle": "Technologies used: Spring MVC, Spring boot, Maven, JUnit",
-    "image": "./images/book-forum.png",
+    "image": "./assets/images/book-forum.png",
     "link": "https://github.com/ksmasoun/The-Literary-Symposium",
     "description": "Forum designed to provide a platform for users to view books, share reviews, and engage in discussions about their favorite literary works."
   },
@@ -20,7 +20,7 @@
     "id": 3,
     "title": "Ancient Relic's Library",
     "subtitle": "Technologies used: HTML, CSS, JavaScript, PHP, MySQL",
-    "image": "./images/ancient-relic.png",
+    "image": "./assets/images/ancient-relic.png",
     "link": "https://github.com/ksmasoun/Ancient-Relic-Library",
     "description": "Ancient Relic's Library is a platform that showcases a collection of ancient relics, providing information and historical context for each item."
   }
