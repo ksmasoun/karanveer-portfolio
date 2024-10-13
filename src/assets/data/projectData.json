@@ -22,7 +22,7 @@
     "subtitle": "Technologies used: HTML, CSS, JavaScript, PHP, MySQL",
     "image": "./assets/images/ancient-relic.png",
     "link": "https://github.com/ksmasoun/Ancient-Relic-Library",
-    "description": "Ancient Relic's Library is a platform that showcases a collection of ancient relics, providing information and historical context for each item."
+    "description": "Ancient Relic's Library is a platform that showcases a collection of ancient relics, providing information & historical context for each item."
   }
 ]
 }
